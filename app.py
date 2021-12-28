@@ -100,7 +100,7 @@ def kidney():
 
 @app.route("/covid", methods=['GET', 'POST'])
 def covid():
-    return render_template('covid.htm')
+    return render_template('covid.html')
     
 @app.route("/dengue", methods=['GET', 'POST'])
 def dengue():
@@ -132,7 +132,7 @@ def heartDisease():
     
 
 @app.route("/login", methods=['GET', 'POST'])
-def loginPage():
+def login():
     return render_template('login.html')
 
 
